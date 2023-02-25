@@ -1,0 +1,45 @@
+.parent-taskValue{
+    background-color: rgb(28, 27, 27);
+    color: #00ff89;
+    text-align: left;
+    padding: 10px;
+    border-radius: 10px;
+    width: 320px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 1px whitesmoke;
+    transition: 0.7s ease;
+    position: relative;
+    height: 60px;
+    
+    
+}
+.parent-taskValue:hover{
+    background-color: #00ff89;
+    color: black;
+    transform: scale(1,1.08);
+}
+
+.parent-taskValue{
+    display: inline-block;
+}
+.deleteBtn{
+    
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top:20px;
+}
+.editBtn{
+    cursor: pointer;
+    position: absolute;
+    right: 40px;
+    top: 20px;
+}
+.item-text{
+    background-color: rgb(0, 0, 0);
+   padding: 20px;
+   border-radius: 10px;
+}
+
+
